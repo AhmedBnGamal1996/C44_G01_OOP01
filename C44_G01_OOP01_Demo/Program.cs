@@ -17,6 +17,17 @@ namespace C44_G01_OOP01
 
             #endregion
 
+
+            #region Access Modifers 
+
+            TypeA typeA = new TypeA();
+            //typeA.x = 1;    // invalid : Private
+            //typeA.y = 2;    // invalid : internal
+            //typeA.z = 3;    // Valid : Public :accessable its scope and same project and project take reference 
+
+
+
+            #endregion
         }
     }
 }
