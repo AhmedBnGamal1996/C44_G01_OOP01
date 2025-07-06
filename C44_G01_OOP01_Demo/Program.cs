@@ -13,7 +13,7 @@ namespace C44_G01_OOP01
             //product.Id = 10;
             //product.Name = "Test";
             //product.Price = 1000;
-            //product.Quantit = 1; 
+            //product.Quantit = 1;
 
             #endregion
 
