@@ -1,4 +1,5 @@
 ﻿using C44_G01_OOP01_Assignment.Enum;
+using C44_G01_OOP01_Assignment.Struct;
 
 namespace C44_G01_OOP01
 {
@@ -23,22 +24,26 @@ namespace C44_G01_OOP01
 
 
 
-
-
-
-
-
-
-
-
-
-
             #region Question2 
             /*   
-             Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data.
+             Define a struct "Person" with properties "Name" and "Age". 
+            Create an array of three "Person" objects and populate it with data.
             Then,write a C# program to display the details of all the persons in the array.   
     
              */
+
+
+            //Person[] person = new Person[3];
+            //person[0] = new Person { Name = "Ahmed", Age = 29 };
+            //person[1] = new Person { Name = "Maryem", Age = 3 };
+            //person[2] = new Person { Name = "Ali", Age = 29 };
+
+            //foreach (Person P in person)
+            //{
+            //    Console.WriteLine($"the name is {P.Name} and the Age is : {P.Age}");
+            //}
+
+
 
 
 
