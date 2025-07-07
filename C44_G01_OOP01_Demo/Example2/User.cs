@@ -1,6 +1,7 @@
 ﻿
 
 using C44_G01_OOP01_Demo.Enums.Example1;
+using C44_G01_OOP01_Demo.Example3;
 
 namespace C44_G01_OOP01_Demo.Example2
 {
@@ -12,5 +13,11 @@ namespace C44_G01_OOP01_Demo.Example2
 
         public Grades Grade { get; set; }
         public Branch Branch { get; set; }
+
+        // public bool[] Permissions = new bool[4];
+        public Permissions Permissions { get; set; }
+
+
+
     }
 }

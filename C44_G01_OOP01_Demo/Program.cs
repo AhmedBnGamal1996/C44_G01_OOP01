@@ -1,6 +1,9 @@
 ﻿using C44_G01_OOP01_Demo.Enums.Example1;
 using C44_G01_OOP01_Demo.Example2;
+using C44_G01_OOP01_Demo.Example3;
 using Common;
+using System.ComponentModel;
+using System.Xml.XPath;
 
 namespace C44_G01_OOP01
 {
@@ -112,7 +115,7 @@ namespace C44_G01_OOP01
             //Console.WriteLine(user.Gender);
             //Console.WriteLine(user.Branch);
 
-           // ------------------------------------------------------
+            // ------------------------------------------------------
 
             //User user = new User();
 
@@ -158,7 +161,7 @@ namespace C44_G01_OOP01
             //user.Grade = grade;
             //user.Gender = (Gender)gender;
             //user.Branch = branch; 
-            
+
             //Console.Clear();
 
             //Console.WriteLine($"Hello {user.Id} , {user.Name} ");
@@ -175,6 +178,122 @@ namespace C44_G01_OOP01
             //{
             //    Console.WriteLine($"String : {B}");
             //}
+
+
+
+
+
+            #endregion
+
+
+
+
+            #region Video 6 [ Permission Enum Example 3 ] 
+
+            //User user1 = new User();
+            //user1.Id = 10;
+
+            //// Write - REad - Delete - Execute 
+
+            //user1.Permissions[0] = true;
+            //user1.Permissions[1] = false;
+            //user1.Permissions[2] = true;
+            //user1.Permissions[3] = false;
+            //// ID  : int ==> 4 bytes , Bool ==> 4Bytes  // Total = 8 Bt 
+
+            //User user2 = new User();
+            //user1.Id = 20;
+
+            //// Write - REad - Delete - Execute 
+
+            //user2.Permissions[0] = true;
+            //user2.Permissions[1] = false;
+            //user2.Permissions[2] = true;
+            //user2.Permissions[3] = false;
+
+            //-----------------------------------
+
+            //// Enum
+            //User user = new User();
+            //user.Id = 1;
+            //user.Permissions = Permissions.Delete;
+            //Console.WriteLine(user.Permissions);
+
+            //user.Permissions = Permissions.Read;
+            //Console.WriteLine(user.Permissions);
+
+
+            //-----------------------------------
+
+            /*  
+            Write = 1                  
+            Read = 2                       
+            Delete = 4                            
+            Execute = 8
+            */
+
+            //User user = new User();
+            //user.Id = 1;
+
+
+            //user.Permissions = (Permissions)1;
+            //Console.WriteLine(user.Permissions);
+
+            //user.Permissions = user.Permissions ^ Permissions.Delete;
+
+            //Console.WriteLine(user.Permissions);
+
+            //user.Permissions = user.Permissions ^ Permissions.Delete;
+            //Console.WriteLine(user.Permissions);
+
+            // For Check Permission 
+            // & ==> Check if Permission exist or not  
+
+            //if ( (user.Permissions & Permissions.Delete ) == Permissions.Delete )
+            //{
+            //    Console.WriteLine("Permission delete already exist ...");
+
+            //}
+            //else
+            //{
+            //    user.Permissions ^= ~ Permissions.Delete;
+            //}
+            //Console.WriteLine(user.Permissions);
+
+            //--------------------------------
+
+            // OR ==> Add Permission if not Exist  and already exict will keep
+
+            //user.Permissions = (Permissions)1;
+            //Console.WriteLine(user.Permissions);
+
+            //user.Permissions |= Permissions.Write; 
+            //Console.WriteLine(user.Permissions);
+
+
+            /////////////------------------------\\\\\\\\\\\\\\\
+
+            // ممكن اخد من enum علي طول 
+
+            //Permissions permissions;
+            //permissions = Permissions.Delete | Permissions.Read;
+
+            //Console.WriteLine(permissions);
+
+
+
+
+            #endregion
+
+
+
+
+
+
+            #region Video 7  Struct
+
+
+
 
 
 
