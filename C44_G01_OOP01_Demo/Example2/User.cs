@@ -7,15 +7,15 @@ namespace C44_G01_OOP01_Demo.Example2
 {
     internal class User
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public Gender Gender { get; set; }
+        //public int Id { get; set; }
+        //public string? Name { get; set; }
+        //public Gender Gender { get; set; }
 
-        public Grades Grade { get; set; }
-        public Branch Branch { get; set; }
+        //public Grades Grade { get; set; }
+        //public Branch Branch { get; set; }
 
-        // public bool[] Permissions = new bool[4];
-        public Permissions Permissions { get; set; }
+        //// public bool[] Permissions = new bool[4];
+        //public Permissions Permissions { get; set; }
 
 
 

@@ -3,6 +3,7 @@ using C44_G01_OOP01_Demo.Example2;
 using C44_G01_OOP01_Demo.Example3;
 using Common;
 using System.ComponentModel;
+using System.Drawing;
 using System.Xml.XPath;
 
 namespace C44_G01_OOP01
@@ -292,9 +293,52 @@ namespace C44_G01_OOP01
 
             #region Video 7  Struct
 
+            //Point p1;
+            //p1 = new Point();
+            //Console.WriteLine(p1.X);
+            //Console.WriteLine(p1.Y);
+
+            //Point p2;
+
+            //p2 = new Point(100);
+            //Console.WriteLine(p2.ToString()) ;      // Performance Better 
+
+            //Console.WriteLine(p2);    // Boxing for P2 ( value Type ) To Object  then print because writeline take a (object)    // Performance Slower 
+
+
+            //Console.WriteLine(p2.X);
+            //Console.WriteLine(p2.Y);
 
 
 
+
+
+
+
+
+
+            #endregion
+
+
+            #region Struct Ex 
+
+            //Point p1 = new Point() { X = 10, Y = 20 }; 
+            //Point p2 = new Point() { Y = 30, X = 40 };
+
+
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+
+            //p2 = p1;
+
+            //Console.WriteLine();
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+            //Console.WriteLine();
+            //p1.X = 100;
+            //p1.Y = 200;
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
 
 
 
