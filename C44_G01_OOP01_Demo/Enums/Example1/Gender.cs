@@ -5,5 +5,5 @@ namespace C44_G01_OOP01_Demo.Enums.Example1
     {
         Male,
         Female
-    }
+    } 
 }

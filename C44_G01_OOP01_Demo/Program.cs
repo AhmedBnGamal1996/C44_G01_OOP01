@@ -1,4 +1,5 @@
 ﻿using C44_G01_OOP01_Demo.Enums.Example1;
+using C44_G01_OOP01_Demo.Example2;
 using Common;
 
 namespace C44_G01_OOP01
@@ -96,7 +97,85 @@ namespace C44_G01_OOP01
 
 
 
-            #region 
+            #region Video 5 Enum  Ex3 { Grade , Gender , Branch } 
+            // User user ;     // Reference 
+
+            //user = new User()
+            //{
+            //    Id = 1,
+            //    Name = "Mona",
+            //    Gender = Gender.Male,
+            //    Grade = Grades.A,
+            //    Branch = Branch.Dokki
+            //};
+            //Console.WriteLine(user.Grade);
+            //Console.WriteLine(user.Gender);
+            //Console.WriteLine(user.Branch);
+
+           // ------------------------------------------------------
+
+            //User user = new User();
+
+            //Console.WriteLine("Please Enter the USer Info ...");
+            //int stId;
+            //bool isParsed; 
+
+            //do
+            //{
+            //Console.WriteLine("Please Enter the USer Id ...");
+            //isParsed = int.TryParse(Console.ReadLine() , out stId); // String ? 
+            //}
+            //while (!isParsed);
+
+            //Console.WriteLine("Please Enter Valid User Name ..");
+            //user.Name = Console.ReadLine();
+
+            //// Gender , Grade , Branch
+
+            //object? gender;
+            //do
+            //{
+            //    Console.WriteLine("Please Enter the USer Gender ...");
+            //    isParsed = Enum.TryParse(typeof(Gender) , Console.ReadLine(), true , out gender);
+            //}while(!isParsed);
+
+
+            //Grades grade; 
+            //do
+            //{
+            //    Console.WriteLine("Please Enter the USer Grade ...");
+            //    isParsed = Enum.TryParse<Grades>(Console.ReadLine() , true , out grade);
+            //} while (!isParsed);
+
+            //Branch branch ;
+            //do
+            //{
+            //    Console.WriteLine("Please Enter the USer Branch ...");
+            //    isParsed = Enum.TryParse<Branch>(Console.ReadLine(), true , out branch);
+            //} while (!isParsed);
+
+            //user.Id = stId;
+            //user.Grade = grade;
+            //user.Gender = (Gender)gender;
+            //user.Branch = branch; 
+            
+            //Console.Clear();
+
+            //Console.WriteLine($"Hello {user.Id} , {user.Name} ");
+            //Console.WriteLine($"Your gender {user.Gender} ");
+            //Console.WriteLine($"Your grade {user.Grade} ");
+            //Console.WriteLine($"Your Branch {user.Branch} ");
+
+            //foreach(Branch B in Enum.GetValues(typeof(Branch)))
+            //{
+            //    Console.WriteLine(B);
+            //}
+
+            //foreach (String B in Enum.GetNames(typeof(Branch)))
+            //{
+            //    Console.WriteLine($"String : {B}");
+            //}
+
 
 
 
