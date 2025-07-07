@@ -68,7 +68,7 @@ namespace C44_G01_OOP01
             //{
             //    Console.WriteLine("Please enter a season (Spring, Summer, Autumn, Winter) ...");
             //    isSeason = Enum.TryParse<Season>(Console.ReadLine(), true, out season)&& Enum.IsDefined(typeof(Season) , season);     
-                
+
             //    // هنستعمل isDefined عشان نتأكد هل موجود القيمة اللي دخلها و لا لا 
 
 
@@ -127,6 +127,26 @@ namespace C44_G01_OOP01
             Write a C# program that takes a color name as input from the user and displays a message indicating
             whether the input color is a primary color or not.
              */
+
+            //Colors color = new Colors();
+            //bool isColor;
+
+            //do
+            //{
+            //    Console.Write("Please enter a basic Color (Red, Green, Blue) ...  ");
+            //    isColor = Enum.TryParse<Colors>(Console.ReadLine(), true, out color) && Enum.IsDefined(typeof(Colors), color);
+            //    if (isColor == true)
+            //    {
+            //        Console.WriteLine("the input color is a primary color");
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("the input color is not a primary color");
+            //    }
+
+            //} while (!isColor); 
+            
 
 
 
