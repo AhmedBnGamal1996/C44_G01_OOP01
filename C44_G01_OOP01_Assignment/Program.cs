@@ -61,11 +61,34 @@ namespace C44_G01_OOP01
 
 
 
+            //Season season = new Season();
+            //bool isSeason;
+
+            //do
+            //{
+            //    Console.WriteLine("Please enter a season (Spring, Summer, Autumn, Winter) ...");
+            //    isSeason = Enum.TryParse<Season>(Console.ReadLine(), true, out season)&& Enum.IsDefined(typeof(Season) , season);     
+                
+            //    // هنستعمل isDefined عشان نتأكد هل موجود القيمة اللي دخلها و لا لا 
 
 
+            //} while (!isSeason);
 
-
-
+            //switch (season)
+            //{
+            //    case Season.Spring:
+            //        Console.WriteLine("spring march to may");
+            //        break;
+            //    case Season.Summer:
+            //        Console.WriteLine("summer june to august");
+            //        break;
+            //    case Season.Autumn:
+            //        Console.WriteLine("autumn September to November");
+            //        break;
+            //    case Season.Winter:
+            //        Console.WriteLine("winter December to February");
+            //        break;
+            //}
 
 
             #endregion
