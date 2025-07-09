@@ -110,6 +110,31 @@ namespace C44_G01_OOP01
              */
 
 
+            //int userPermission = (int)Permissions.Read;
+            //Console.WriteLine("Current Permissions: " + userPermission);
+
+            //userPermission += (int)Permissions.Write;
+            //Console.WriteLine("After Adding Write: " + userPermission);
+
+            //userPermission -= (int)Permissions.Read;
+            //Console.WriteLine("After Removing Read: " + userPermission);
+
+            //bool hasDeletePermission = (userPermission & (int)Permissions.Delete) != 0;
+            //Console.WriteLine("Has Delete Permission: " + hasDeletePermission);
+
+
+            //bool hasExecutePermission = (userPermission & (int)Permissions.Execute) != 0;
+            //Console.WriteLine("Has Execute Permission: " + hasExecutePermission);
+
+
+            //Console.WriteLine($"the Current Permissions : {userPermission}");
+
+
+
+
+
+
+
 
 
             #endregion
@@ -180,7 +205,7 @@ namespace C44_G01_OOP01
             //double x2 = Convert.ToDouble(Console.ReadLine()); 
             //Console.Write("please enter y2 : ");
             //double y2 = Convert.ToDouble(Console.ReadLine());
-             
+
 
             //Point P1 = new Point(x1,y1);
             //Point P2 = new Point(x2,x2);
@@ -221,10 +246,10 @@ namespace C44_G01_OOP01
             //        isAge = int.TryParse(Console.ReadLine(), out  ageUser);
             //    }
             //    while (!isAge);
-                
+
             //        persons[i] = new Person(nameUser, ageUser);
 
-                
+
             //}
 
             //Person oldestPerson = persons[0];
