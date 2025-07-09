@@ -1,5 +1,6 @@
 ﻿using C44_G01_OOP01_Assignment.Enum;
 using C44_G01_OOP01_Assignment.Struct;
+using System.Xml.Linq;
 
 namespace C44_G01_OOP01
 {
@@ -202,6 +203,45 @@ namespace C44_G01_OOP01
             #region Question7 
             /*Create a struct called "Person" with properties "Name" and "Age". 
             Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.   */
+
+
+            //Person[] persons = new Person[3];
+            //for (int i = 0; i < persons.Length; i++)
+            //{
+            //   string nameUser;
+            //   int ageUser; 
+            //   bool isAge;
+            //    do
+            //    {
+
+            //        Console.WriteLine($"Please enter the details of person {i + 1}:");
+            //        Console.Write("Name: ");
+            //         nameUser = Console.ReadLine();
+            //        Console.Write("Age: ");
+            //        isAge = int.TryParse(Console.ReadLine(), out  ageUser);
+            //    }
+            //    while (!isAge);
+                
+            //        persons[i] = new Person(nameUser, ageUser);
+
+                
+            //}
+
+            //Person oldestPerson = persons[0];
+            //foreach (Person person in persons)
+            //{
+            //    if (person.Age > oldestPerson.Age)
+            //    {
+            //        oldestPerson = person;
+            //    }
+            //}
+
+            //Console.Clear();
+
+            //Console.WriteLine($"the oldest is : {oldestPerson}");
+
+
+
 
 
 

@@ -11,5 +11,10 @@ namespace C44_G01_OOP01_Assignment.Struct
             Name = name;
             Age = age;
         }
+
+        public override string ToString()
+        {
+            return Name! ;  
+        }
     }
 }
