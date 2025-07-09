@@ -146,7 +146,7 @@ namespace C44_G01_OOP01
             //    }
 
             //} while (!isColor); 
-            
+
 
 
 
@@ -169,8 +169,25 @@ namespace C44_G01_OOP01
             Write a C# program that takes two points as input from the user and calculates the distance between them.   
             */
 
+            //Console.WriteLine("Please Enter 2 Point where the one Point have X and y coordinate..");
 
+            //Console.Write("please enter x1 : ");
+            //double x1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("please enter y1 : ");
+            //double y1 = Convert.ToDouble(Console.ReadLine()); 
+            //Console.Write("please enter x2 : ");
+            //double x2 = Convert.ToDouble(Console.ReadLine()); 
+            //Console.Write("please enter y2 : ");
+            //double y2 = Convert.ToDouble(Console.ReadLine());
+             
 
+            //Point P1 = new Point(x1,y1);
+            //Point P2 = new Point(x2,x2);
+
+            //double Distance = Math.Sqrt(Math.Pow((P2.X - P1.X), 2) + Math.Pow((P2.Y - P1.Y), 2));
+
+            //Console.Clear();
+            //Console.WriteLine($"The distance between the two points is : {Distance}");
 
 
             #endregion
